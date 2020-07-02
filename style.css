@@ -1,0 +1,30 @@
+*{margin:0;padding:0;}
+
+body
+{
+	font-family:'Poppins', sans-serif;
+	
+}
+img
+{
+	max-width: 100%;
+}
+.topSection
+{
+	background-image:url(image/top-banner.png);
+	background-repeat: no-repeat;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.highligted {
+    color: orange;
+}
