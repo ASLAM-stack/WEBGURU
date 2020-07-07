@@ -12,7 +12,7 @@ img
 section
 {
     height: 500px;
-    margin-bottom: 30px;
+    margin-bottom: 120px;
 }
 .topSection
 {
@@ -38,13 +38,9 @@ p{
     color: dimgrey;
 }
 
-.highligted {
+.highlighted {
     color: orange;
 }
-.half-width img {
-    width: 390px;
-}
- 
 .button
 {
     text-decoration: none;
@@ -84,4 +80,38 @@ p{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.Experience
+{
+    height: 50%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    background: white;
+}
+.experience-area
+{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,tomato,lightsalmon);
+    border-image-slice: 1;
+}
+#baby
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;   
+}
+#exTitle
+{
+    margin-bottom: 10px;
+}
+footer
+{
+    text-align: center;
+    font-size: 12px;
 }
